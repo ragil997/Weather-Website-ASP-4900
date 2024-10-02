@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Storm Wagon - Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .signin-container {
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="signin-container">
+        <h1>Register for Storm Wagon</h1>
+        <input id="username" type="text" placeholder="Username">
+        <input id="email" type="text" placeholder="Email">
+        <input id="password" type="password" placeholder="Password">
+        <a href = "index.html"><button id="signin-button">Sign Up</button></a>
+        <div id="signin-error" class="hidden">Your username or password is incorrect</div>
+        <a href = "index.html"><button id="guest-button">Continue as Guest</button></a>
+        <a href = "login.html"><button id="login-button">Already have an Account?</button></a>
+    </div>
+</body>
+</html>
+
+
